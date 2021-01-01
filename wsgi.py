@@ -3,7 +3,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def hello():
-    return "This was deployed automatically!!"
+    return "Finally this time!"
 
 if __name__ == "__main__":
     application.run()
